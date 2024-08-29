@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "tranquill",
     "description": "Real-time automated typing bot for Google Chrome.",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "icons": {
         "16": "./assets/images/icon_16x.png",
         "48": "./assets/images/icon_48x.png",
