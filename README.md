@@ -16,6 +16,8 @@
 
 </p>
 
+<h3>⚠️ This code is provided for educational purposes only. I am not liable for any misuse of this script such as using it to secretly violate academic integrity policies. Use at your own risk.</h3>
+
 <h2>Features</h2>
 <ul>
 	<li><strong>Completely Undetectable:</strong> Simulates keypresses in a way that appears to like native keypresses, undetectable to any website.</li>
