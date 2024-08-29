@@ -24,7 +24,7 @@ async function versionCheck() {
 			return true; // New version is available
 		}
 	} catch (error) {
-		return true; // Assume there's an update to prevent potential issues
+		return false; // Work anyway, without internet.
 	}
 	return false; // No new version available
 }
