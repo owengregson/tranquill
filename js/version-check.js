@@ -1,6 +1,6 @@
 const LOCAL_VERSION_URL = chrome.runtime.getURL("manifest.json");
 const REMOTE_VERSION_URL =
-	"https://github.com/owengregson/tranquill/raw/main/manifest.json";
+	"https://owengregson.github.io/tranquill/manifest.json";
 
 self.addEventListener("activate", (event) => {
 	event.waitUntil(checkVersion());
@@ -24,6 +24,7 @@ async function versionCheck() {
 			return true; // New version is available
 		}
 	} catch (error) {
+		console.log(error);
 		return true; // Assume there's an update to prevent potential issues
 	}
 	return false; // No new version available

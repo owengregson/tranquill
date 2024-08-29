@@ -2,9 +2,7 @@
     "manifest_version": 3,
     "name": "tranquill",
     "description": "Real-time automated typing bot for Google Chrome.",
-    "version": "1.0.2",
-	"developer": "owengregson",
-	"github_repo": "https://github.com/owengregson/tranquill",
+    "version": "1.0.3",
     "icons": {
         "16": "./assets/images/icon_16x.png",
         "48": "./assets/images/icon_48x.png",
