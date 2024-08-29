@@ -2,7 +2,6 @@
     <img src="./assets/images/icon_128x.png" alt="tranquill logo" width="48px" height="48px"/>
     <h1>tranquill</h1>
     <h3>Real-time automated typing bot for Google Chrome.</h3>
-	<img src="./assets/images/gui.png" alt="tranquill gui"/>
 </div>
 
 <h2>Overview</h2>
