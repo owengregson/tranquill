@@ -145,6 +145,14 @@ body {
 	background-color: #e16060;
 }
 
+.update-button {
+	background-color: #2d8cff;
+}
+
+.update-button:hover {
+	background-color: #61a8ff;
+}
+
 .guide-container {
 	display: flex;
 	align-items: flex-end;
@@ -159,4 +167,17 @@ body {
 
 .guide-link:hover {
 	color: #c4c4c4;
+}
+
+.update-message {
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+    margin: 20px 0 10px;
+}
+
+.update-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 30px;
 }
