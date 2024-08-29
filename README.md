@@ -8,11 +8,11 @@
 <p>
     <strong>tranquill</strong> is a real-time automated typing bot designed to work seamlessly with Google Chrome. This extension allows you to automate typing tasks on websites such as Google Docs, simulating human-like typing while doing so.
 
-	```
+
 	Using tranquill, you can create realistic edit history
 	on your documents, rather than pasting
 	and having everything appear at once.
-	```
+	
 </p>
 
 <h2>Features</h2>
