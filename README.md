@@ -2,6 +2,7 @@
     <img src="./assets/images/icon_128x.png" alt="tranquill logo" width="48px" height="48px"/>
     <h1>tranquill</h1>
     <h3>Real-time automated typing bot for Google Chrome.</h3>
+	<img src="./assets/images/gui.png" alt="tranquill gui"/>
 </div>
 
 <h2>Overview</h2>
@@ -12,7 +13,7 @@
 	Using tranquill, you can create realistic edit history
 	on your documents, rather than pasting
 	and having everything appear at once.
-	
+
 </p>
 
 <h2>Features</h2>
@@ -30,9 +31,14 @@
 
 <h3>Step 1: Download the Extension Files</h3>
 <ol>
-    <li>Clone or download the <strong>tranquill</strong> repository from <a href="https://github.com/owengregson/tranquill/">GitHub</a>.</li>
-    <li>Extract the ZIP file if you downloaded the files as an archive.</li>
+    <li>Clone or download the <strong>tranquill</strong> repository from this GitHub by clicking the <strong>green Code button</strong>, then clicking <strong>Download ZIP</strong>.</li>
+    <li>Once downloaded, extract the ZIP file to a folder on your computer.</li>
 </ol>
+<img src="./assets/images/install_step_1.png" alt="web page showing green code button"/>
+<br><br>
+<img src="./assets/images/install_step_2.png" alt="web page showing gray download ZIP button"/>
+<br><br>
+<img src="./assets/images/install_step_3.png" alt="mac os interface showing hovering open button"/>
 
 <h3>Step 2: Enable Developer Mode in Chrome</h3>
 <ol>
@@ -40,6 +46,10 @@
     <li>Navigate to <code>chrome://extensions/</code>.</li>
     <li>In the top right corner, toggle the switch to enable <strong>Developer mode</strong>.</li>
 </ol>
+
+<img src="./assets/images/install_step_4.png" alt="url bar showing chrome extensions url"/>
+<br><br>
+<img src="./assets/images/install_step_5.png" alt="toggle slider showing enabling developer mode"/>
 
 <h3>Step 3: Load the Extension</h3>
 <ol>
@@ -49,11 +59,21 @@
     <li>The <strong>tranquill</strong> extension should now appear in your list of extensions.</li>
 </ol>
 
-<h3>Step 4: Verify Installation</h3>
+<img src="./assets/images/install_step_6.png" alt="button labeled load unpacked"/>
+<br><br>
+<img src="./assets/images/install_step_7.png" alt="file dialog with tranquill folder selected"/>
+
+<h3>Step 4: Select and Pin Extension</h3>
 <ol>
-    <li>Ensure that the <strong>tranquill</strong> extension is enabled by checking the toggle switch next to its name in the list of extensions.</li>
-    <li>Click on the <strong>tranquill</strong> icon in the Chrome toolbar to open the extension popup and begin using it.</li>
+    <li>Click the extension button and select the <strong>tranquill extension</strong>.</li>
+    <li></strong>Pin</strong> the extension to the taskbar, and click it to open the GUI.</li>
 </ol>
+
+<img src="./assets/images/install_step_8.png" alt="extensions icon"/>
+<br><br>
+<img src="./assets/images/install_step_9.png" alt="extension in list showing the pin icon"/>
+<br><br>
+<img src="./assets/images/install_step_10.png" alt="clicking tranquill icon"/>
 
 <h2>Usage</h2>
 <p>
@@ -64,6 +84,8 @@
 <p>
     Click on the <strong>tranquill</strong> icon in the Chrome toolbar to open the extension's popup interface.
 </p>
+
+<img src="./assets/images/gui.png" alt="tranquill gui"/>
 
 <h3>Step 2: Enter Text</h3>
 <p>
