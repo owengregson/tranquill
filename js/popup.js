@@ -21,16 +21,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	saveButton.addEventListener("click", function () {
 		const textToSave = textInput.value;
-		chrome.storage.local.set({ savedText: textToSave }).then(() => {
-			console.log("Text saved:", textToSave);
-		});
+		chrome.storage.local.set({ savedText: textToSave });
 	});
 
 	resetButton.addEventListener("click", function () {
-		textInput.value = ""; // Clear the input field
-		chrome.storage.local.remove("savedText").then(() => {
-			console.log("Saved text removed");
-		});
+		textInput.value = "";
+		chrome.storage.local.remove("savedText");
 	});
 
 	startButton.addEventListener("click", function () {

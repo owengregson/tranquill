@@ -24,7 +24,6 @@ async function versionCheck() {
 			return true; // New version is available
 		}
 	} catch (error) {
-		console.log(error);
 		return true; // Assume there's an update to prevent potential issues
 	}
 	return false; // No new version available
@@ -34,7 +33,6 @@ function fetchLocalVersion() {
 	return fetch(LOCAL_VERSION_URL)
 		.then((response) => response.json())
 		.catch((error) => {
-			console.log("Failed to load local version:", error);
 			return null;
 		});
 }
@@ -43,7 +41,6 @@ function fetchRemoteVersion() {
 	return fetch(REMOTE_VERSION_URL, { cache: "no-store" })
 		.then((response) => response.json())
 		.catch((error) => {
-			console.log("Failed to load remote version:", error);
 			return null;
 		});
 }

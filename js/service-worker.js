@@ -1,8 +1,6 @@
 try {
 	importScripts("version-check.js");
-} catch (e) {
-	console.error(e);
-}
+} catch (e) {}
 
 const qwertyLayout = {
 	q: [0, 0],
