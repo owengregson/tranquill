@@ -1,6 +1,6 @@
-const LOCAL_VERSION_URL = chrome.runtime.getURL("../assets/json/version.json");
+const LOCAL_VERSION_URL = chrome.runtime.getURL("manifest.json");
 const REMOTE_VERSION_URL =
-	"https://github.com/owengregson/tranquill/raw/main/assets/json/version.json";
+	"https://github.com/owengregson/tranquill/raw/main/manifest.json";
 
 self.addEventListener("activate", (event) => {
 	event.waitUntil(checkVersion());
@@ -10,8 +10,6 @@ async function checkVersion() {
 	const isNewVersionAvailable = await versionCheck();
 
 	if (!isNewVersionAvailable) {
-		// No update needed, switch to popup.html
-		console.log("No new version available");
 		await chrome.action.setPopup({ popup: "../pages/popup.html" });
 	}
 }
@@ -26,7 +24,6 @@ async function versionCheck() {
 			return true; // New version is available
 		}
 	} catch (error) {
-		console.log("Version check failed:", error);
 		return true; // Assume there's an update to prevent potential issues
 	}
 	return false; // No new version available
@@ -36,7 +33,7 @@ function fetchLocalVersion() {
 	return fetch(LOCAL_VERSION_URL)
 		.then((response) => response.json())
 		.catch((error) => {
-			console.log("Failed to load local version.json:", error);
+			console.log("Failed to load local version:", error);
 			return null;
 		});
 }
@@ -45,7 +42,7 @@ function fetchRemoteVersion() {
 	return fetch(REMOTE_VERSION_URL, { cache: "no-store" })
 		.then((response) => response.json())
 		.catch((error) => {
-			console.log("Failed to load remote version.json:", error);
+			console.log("Failed to load remote version:", error);
 			return null;
 		});
 }
