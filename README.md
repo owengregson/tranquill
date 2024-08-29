@@ -1,7 +1,7 @@
 <div align="center">
     <img src="./assets/images/icon_128x.png" alt="tranquill logo" width="48px" height="48px"/>
     <h1>tranquill</h1>
-    <h3>Chrome Extension making a real-time automated typing bot for documents.</h3>
+    <h3>Human-like typing automation for Google Chrome.</h3>
 </div>
 
 <h2>Overview</h2>
