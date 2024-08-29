@@ -29,7 +29,7 @@ const qwertyLayout = {
 	b: [4, 2],
 	n: [5, 2],
 	m: [6, 2],
-	" ": [9, 2], // space mapped to far right
+	" ": [4, 3], // space mapped below the middle row
 };
 
 function calculateDistance(char1, char2) {
@@ -45,7 +45,7 @@ function getHumanLikeDelay(char, prevChar) {
 	let delay = baseSpeed;
 
 	if (char === " ") {
-		delay *= 0.5; // Space is typed faster
+		delay *= 0.85; // Space is typed faster
 	}
 
 	// Increase delay based on the distance between keys
@@ -55,12 +55,12 @@ function getHumanLikeDelay(char, prevChar) {
 	}
 
 	if (char === prevChar) {
-		delay *= 0.7; // Typing repeated characters is faster
+		delay *= 0.77; // Typing repeated characters is faster
 	}
 
 	const commonPairs = ["th", "he", "in", "er", "an"];
 	if (prevChar && commonPairs.includes(prevChar + char)) {
-		delay *= 0.85; // Common pairs are typed faster
+		delay *= 0.65; // Common pairs are typed faster
 	}
 
 	delay += Math.random() * 50 - 25; // Randomness between -25ms to +25ms
