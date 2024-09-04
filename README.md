@@ -15,7 +15,7 @@
 
 </p>
 
-<h3>⚠️ This code is provided for educational purposes only. I am not liable for any misuse of this script. Use at your own discretion.</h3>
+<h3>⚠️ This code is provided for demonstrational purposes only. I am not liable for any misuse of this script. Use at your own discretion.</h3>
 
 <h2>Features</h2>
 <ul>
