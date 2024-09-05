@@ -1,13 +1,23 @@
 body {
 	font-family: "Inter", sans-serif;
 	padding: 0;
+	margin: 0;
 	background-color: white;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 350px;
-	width: 300px;
+	height: 366px;
+	width: 316px;
+	border: 0px solid;
+    border-image: linear-gradient(#47e2f6, #069be5, #059fe9, #176ec4) 1;
+    animation: rotate 2s ease-in infinite;
 	box-sizing: border-box;
+}
+
+@keyframes rotate {
+  50% {
+	border-image: linear-gradient(#176ec4, #059fe9, #069be5, #47e2f6) 1;
+  }
 }
 
 .container {
@@ -16,8 +26,8 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	height: 100%;
-	max-height: 350px;
-	max-width: 300px;
+	max-height: 366px;
+	max-width: 316px;
 	padding: 20px;
 	box-sizing: border-box;
 	text-align: center;
